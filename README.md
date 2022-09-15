@@ -13,6 +13,12 @@ Estudo e proposta da aplicação do Clean Architecture
 - [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv)
 - [CycleORM](https://cycle-orm.dev/)
 
+_outras opções podem entrar..._
+
+- [PHP-DI](https://php-di.org/)
+- [Silly](https://github.com/mnapoli/silly)
+- [FastRoute](https://github.com/nikic/FastRoute)
+
 ## Requisitos
 
 - Docker 20+
