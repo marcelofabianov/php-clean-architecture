@@ -10,9 +10,9 @@ use App\Module\User\Domain\ValueObject\Password;
 class CreateUserDto extends Dto implements IDto
 {
     public readonly string $name;
-        public readonly Email $email;
-        public readonly Password $password;
-        public readonly ?bool  $active;
+    public readonly Email $email;
+    public readonly Password $password;
+    public readonly ?bool $active;
 
     public function __construct(string $name, string $email, string $password)
     {

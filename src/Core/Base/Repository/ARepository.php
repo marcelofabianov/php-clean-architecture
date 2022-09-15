@@ -28,4 +28,12 @@ abstract class ARepository
         $this->database = $database;
         $this->database->setObserver($observer, $observerTargetSubject);
     }
+
+    /**
+     * @return int
+     */
+    public function count(): int
+    {
+        //
+    }
 }
