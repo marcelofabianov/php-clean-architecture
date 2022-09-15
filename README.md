@@ -11,6 +11,7 @@ Estudo e proposta da aplicação do Clean Architecture
 - [slim/psr7](https://packagist.org/packages/slim/psr7)
 - [slim/slim](https://packagist.org/packages/slim/slim)
 - [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv)
+- [CycleORM](https://cycle-orm.dev/)
 
 ## Requisitos
 
