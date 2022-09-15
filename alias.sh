@@ -1,0 +1,6 @@
+alias app.up="docker compose up -d"
+alias app.down="docker compose down"
+alias app.exec="docker exec app"
+alias app.bash="docker exec -it app bash"
+alias app.php="app.exec php"
+alias app.composer="app.exec composer"
