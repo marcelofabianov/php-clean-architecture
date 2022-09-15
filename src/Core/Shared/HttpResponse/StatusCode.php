@@ -99,8 +99,9 @@ class StatusCode
         return $this->messages[$code];
     }
 
-    public function isValidCode(int $code): bool
+    public static function isValidCode(int $code): bool
     {
-        return in_array($code, array_keys($this->messages));
+        $code = new StatusCode();
+        return in_array($code, array_keys($code->messages));
     }
 }

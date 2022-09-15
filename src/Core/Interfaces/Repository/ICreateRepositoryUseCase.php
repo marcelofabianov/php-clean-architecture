@@ -7,7 +7,5 @@ use stdClass;
 
 interface ICreateRepositoryUseCase
 {
-    public function data(stdClass $record): IDataStruct;
-
-    public function save(IDataStruct $data): IDataStruct;
+    public function create(IDataStruct $data): IDataStruct;
 }
