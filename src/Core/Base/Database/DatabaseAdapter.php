@@ -6,7 +6,7 @@ use App\Core\Interfaces\Database\IDatabaseAdapter;
 
 class DatabaseAdapter
 {
-    public static function default(): IDatabaseAdapter
+    public function __construct($connectionName = 'default')
     {
         //
     }
